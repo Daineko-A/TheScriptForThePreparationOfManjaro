@@ -5,7 +5,7 @@ sudo touch /etc/sysctl.d/99-sysctl.conf
 echo "net.ipv4.ip_default_ttl=65" >> /etc/sysctl.d/99-sysctl.conf
 sysctl -p
 
-#Git, maven, gradlle, android studio, intelej idea, skype, telegram, keepass, chrome, retroarch, viber, dropbox, yandexdisc, lshw, neofetch, htop, jdk, 
+#Git, maven, gradlle, android studio, intelej idea, skype, telegram, keepass, chrome, retroarch, viber, dropbox, yandexdisc, lshw, neofetch, htop, jdk, mc, visual studio code, Python
 
 sudo pacman -Syu linux-headers dkms
 git clone https://github.com/tomaspinho/rtl8821ce.git
